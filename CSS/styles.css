@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('../images/bg-pattern-top-desktop.svg');
+}
+
+#container {
+    background-image: url('../images/bg-pattern-bottom-desktop.svg');
+    background-size: cover;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+#card1 {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#front {
+    max-width: 40%;
+    display: inline-block;
+}
+
+#front p {
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.678);
+}
+
+#field {
+    margin-right: 20px;
+    float: right;
+}
+
+li {
+    position: relative;
+    top: 40px;
+    list-style: inside;
+    background: rgba(211, 205, 205, 0.425);
+    margin: 20px;
+    padding: 10px;
+    list-style-image: url('../images/icon-star.svg');
+    border-radius: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.l1 {
+    right: 250px;
+}
+
+.l2 {
+    right: 230px;
+}
+
+.l3 {
+    right: 210px;
+}
+
+.review {
+    position: relative;
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 20px;
+    display: inline-block;
+    width: 325px;
+    color: wheat;
+    padding: 30px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.b1 {
+    top: 10px;
+}
+
+.b2 {
+    top: 30px;
+}
+
+.b3 {
+    top: 50px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+.review img {
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.review h2,
+.review h3 {
+    margin: 0px;
+    font-size: 15px;
+}
+
+.review h3 {
+    color: hsl(333, 80%, 67%);
+}
+
+@media screen and (max-width: 350px) {
+    #container {
+        max-width: 350px;
+    }
+    #card1 {
+        margin: auto;
+        text-align: center;
+    }
+    h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    #front {
+        max-width: 80%;
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    #field {
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .review {
+        display: block;
+        margin: auto;
+    }
+}
